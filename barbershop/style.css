@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    position: relative;
+}
+
+.texturecontent {
+    background-color: #000000;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.texture {
+    z-index: 1;
+    background: url(texture1.png) repeat-y;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+.tools {
+    z-index: 2;
+    background: url(tools.png);
+    position: absolute;
+    top: -70px;
+    right: 0;
+    bottom: 0;
+    left: 60px;
+}
+
+.header, .content {
+    position: relative;
+    z-index: 888;
+}
+
+.navigation {
+    margin-left: 90px;
+    margin-bottom: 100px;
+    display: flex;
+    margin-top: 65px;
+    z-index: inherit;
+}
+
+.logo {
+    background: url(logo.png);
+    width: 120px;
+    height: 17px;
+    background-repeat: no-repeat;
+    margin-right: 94px;
+}
+
+.items {
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Bebas Neue;
+    margin-top: -5px;
+}
+
+
+
+.item {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 64px;
+    letter-spacing: 0.1px;
+}
+
+.contact {
+    margin-right: 47px;
+    letter-spacing: 0.5px;
+}
+
+.image {
+    background: url(image.png);
+    height: 570px;
+    width: 450px;
+    margin-left: 95px;
+    margin-right: 245px;
+    margin-bottom: 68px;
+    margin-top: 45px;
+    z-index: 900;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+}
+
+.barberhouse {
+    margin-top: 120px;
+}
+
+.firstword {
+    height: 90px;
+    width: 430px;
+    background: url(barber.png);
+}
+
+.lastword {
+    height: 60px;
+    width: 233px;
+    background: url(house.png);
+    margin-left: 102px;
+    margin-bottom: 55px;
+}
+
+.authentic {
+    height: 30px;
+    width: 300px;
+    background: url(authentic.png);
+    margin-left: 70px;
+    margin-bottom: 25px;
+}
+
+.description {
+    width: 300px;
+    color: white;
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: Bebas Neue;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    line-height: 35px;
+    text-align-last: center;
+    margin-bottom: 39px;
+}
+
+.bookappointment {
+    display: flex;
+}
+
+.book {
+    background: url(appointment.png) no-repeat center;
+    height: 16px;
+    width: 168px;
+
+}
+
+.bookitem {
+    height: 30px;
+    width: 193px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    color: #FFB632;
+}
+
+.bookitem:hover {
+    height: 30px;
+    width: 193px;
+    border: 1px solid black;
+    background-color: #FFB632;
+    color: black;
+}
+
+.bookitem, .bookitem:hover {
+    font-size: 21px;
+    font-family: Bebas Neue;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2.6px;
+}
+
+.apointment {
+    margin-right: 15px;
+}
+
+.gallery {
+    margin-left: -25px;
+}
+
+.halfround {
+    
+}
+
+.halfround1 {
+    background: url(sitback.png);
+    position: absolute;
+    top: 15px;
+    left: 480px;
+    z-index: 960;
+    height: 120px;
+    width: 105px;
+}
+
+
+.halfround2 {
+    height: 95px;
+    width: 80px;
+    background: url(enjoy.png) no-repeat;
+    position: absolute;
+    top: 45px;
+    left: 457px;
+    z-index: 950;
+}
+
+.line1 {
+    height: 900px;
+    width: 640px;
+    background: url(line1.png);
+    position: absolute;
+    z-index: 10;
+    top: 227px;
+    left: -320px;
+}
+
+.linetitle1 {
+    background: url(linetitle1.png);
+    height: 5px;
+    width: 68px;
+    position: absolute;
+    left: 810px;
+    top: 250px;
+    z-index: 999;
+}
+
+.linetiltle2 {
+    background: url(linetitle2.png);
+    height: 5px;
+    width: 68px;
+    position: absolute;
+    left: 1150px;
+    top: 250px;
+    z-index: 999;
+}
+
+.socialmedia {
+    z-index: 999;
+    position: absolute;
+    right: 70px;
+    top: 440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.socialmedia-wrapper {
+    position: relative;
+}
+
+.socialmedia-item {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    margin-bottom: 20px;
+}
+
+.facebook {
+    background: url(facebook.png);
+    width: 12px;
+    height: 16px;
+}
+
+.insta {
+    background: url(insta.png);
+    width: 18px;
+    height: 18px;
+    left: -5px;
+    top: 40px;
+}
+
+.twitter {
+    background: url(twitter.png);
+    width: 18px;
+    height: 18px;
+    top: 90px;
+    left: -5px;
+}
+
+.line2 {
+    background: url(line2.png);
+    width: 5px;
+    height: 110px;
+    right: 60px;
+    bottom: -6px;
+    position: absolute;
+}
+
+.freepek {
+    z-index: 999;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    right: 380px;
+    font-family: Bebas Neue;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1330px) {
+    .line2 {
+        display: none;
+    }
+    
+    .freepek {
+        right: 60px;
+    }
+    
+    .tools {
+        display: none;
+    }
+    
+    .image {
+        margin-right: 170px;    
+    }
+    
+    .linetitle1 {
+        display: none;
+    }
+    
+    .linetiltle2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .image {
+        margin-right: 140px;
+    }    
+    
+    .freepek {
+        right: 140px;
+    }
+    
+    .socialmedia-wrapper {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    .image {
+        background: url(image2.png);
+        height: 400px;
+        width: 315px;
+        margin-right: 100px;
+    }
+    
+    .round {
+        display: none;
+    }
+    
+    .description {
+        font-size: 16px;
+        width: 400px;
+        margin: 0 auto;
+    } 
+    
+    .lastword {
+        margin-bottom: 35px;
+    }
+    
+    .freepek {
+        top: 0px;
+        font-size: 15px;
+    }
+    
+    .description {
+        margin-bottom: 20px;
+    }
+    
+    .bookitem, .bookitem:hover {
+        font-size: 17px;
+        letter-spacing: 2px;
+        width: 150px;
+        margin-left: 0px;
+    }
+    
+    .gallery {
+        margin-left: 0px;
+    }
+    
+    .apointment {
+        margin-right: 0px;
+    }
+    
+    .bookappointment {
+        justify-content: center;
+    }
+    
+    .socialmedia {
+        top: 350px;
+        right: 150px;
+    }
+    
+}
+
+@media screen and (max-width: 1300px) {
+    .image {
+        margin-right: 50px;
+    }
+    
+    .socialmedia {
+        top: 40px;
+    }
+    
+    .socialmedia-item {
+        position: unset;
+    }
+    
+    .insta {
+        background: url(insta.png) no-repeat;
+    }
+    
+    .socialmedia-wrapper {
+        width: 100px;
+        justify-content: space-between;
+    }
+    
+    .socialmedia, .freepek {
+        right: 50px;    
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .image {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+
+@media screen and (max-width: 840px) {
+    .line1 {
+        display: none;
+    }    
+    
+    .image {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .items {
+        display: flex;
+        font-size: 17px;
+        width: 300px;
+        justify-content: space-between;
+    }
+    
+    .item, .contact {
+        margin-right: 0px;
+    }
+    
+    .logo {
+        margin-right: 0px;
+    }
+    
+    .navigation {
+        position: relative;
+    }
+    
+    .items {
+        position: absolute;
+        right: 50px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .barberhouse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+    
+    .image {
+        
+    }
+    
+    .lastword {
+        margin-left: 0px;
+    }
+    
+    .authentic {
+        margin-left: 0px;
+    }
+    
+    .description {
+        margin-left: auto;
+    }
+    
+    .bookappointment {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    
+    .socialmedia-wrapper {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .navigation {
+        margin-left: 30px;
+    }
+    
+    .items {
+        width: 250px;
+        right: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 670px) {
+    .socialmedia {
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        font-size: 16px;
+    }
+    
+    .image {
+        width: 157px;
+        height: 200px;
+        background: url(image3.png) no-repeat;
+    }
+    
+    .socialmedia {
+        right: 20px;
+    }
+    
+    .firstword {
+        width: 200px;
+        height: 45px;
+        background: url(barber2.png) no-repeat;
+        margin-bottom: 30px;
+    }
+    
+    .description {
+        font-size: 12px;
+        width: 200px;
+    }
+    
+/*
+    .socialmedia-wrapper {
+        flex-direction: row;
+    }
+    
+    .socialmedia {
+        top: 270px;
+        left: 35px;
+    }
+*/
+}
